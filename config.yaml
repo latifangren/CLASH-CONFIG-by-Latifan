@@ -1,33 +1,47 @@
 ---
 rule-providers:
   Direct:
-    type: file
+    type: http
     behavior: classical
+    url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/main/rule_provider/direct.yaml"
     path: "./rule_provider/direct.yaml"
+    interval: 86400
   Umum:
-    type: file
+    type: http
     behavior: classical
+    url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/main/rule_provider/umum.yaml"
     path: "./rule_provider/umum.yaml"
+    interval: 86400
   Reject:
-    type: file
+    type: http
     behavior: classical
+    url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/main/rule_provider/reject.yaml"
     path: "./rule_provider/reject.yaml"
+    interval: 86400
   Streaming:
-    type: file
+    type: http
     behavior: classical
+    url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/main/rule_provider/streaming.yaml"
     path: "./rule_provider/streaming.yaml"
+    interval: 86400
   Games:
-    type: file
+    type: http
     behavior: classical
+    url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/main/rule_provider/games.yaml"
     path: "./rule_provider/games.yaml"
+    interval: 86400
   Sosmed:
-    type: file
+    type: http
     behavior: classical
+    url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/main/rule_provider/sosmed.yaml"
     path: "./rule_provider/sosmed.yaml"
+    interval: 86400
   Ewallet:
-    type: file
+    type: http
     behavior: classical
+    url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/main/rule_provider/ewallet.yaml"
     path: "./rule_provider/ewallet.yaml"
+    interval: 86400
   China:
     type: http
     behavior: ipcidr
@@ -52,10 +66,18 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Malware/Malware_Domain.yaml"
     path: "./rule_provider/malware.yaml"
     interval: 86400
+      # Provider Cloud Configuration
+  # cc=ID            : Hanya mengambil server Indonesia
+  # format=raw       : Format output dalam bentuk raw
+  # limit=20         : Batasan maksimal 20 akun
+  # vpn=trojan       : Hanya mengambil akun trojan
+  # port=443         : Menggunakan port 443
+  # domain=172.67.5.14 : IP yang digunakan
+  # host=bug.com     : SNI/Host ganti dengan bug kalian
 proxy-providers:
   "provide-us":
     type: http
-    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=US&format=raw&limit=4&vpn=trojan&port=443&domain=172.67.5.14&host=quiz.vidio.com&update=1"
+    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=US&format=raw&limit=4&vpn=trojan&port=443&domain=172.67.5.14&host=bug.com&update=1"
     interval: 3600
     path: ./provide/us.yaml
     health-check:
@@ -65,7 +87,7 @@ proxy-providers:
 
   "provide-sg":
     type: http
-    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=4&vpn=trojan&port=443&domain=172.67.5.14&host=quiz.vidio.com&update=1"
+    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=SG&format=raw&limit=4&vpn=trojan&port=443&domain=172.67.5.14&host=bug.com&update=1"
     interval: 3600
     path: ./provide/sg.yaml
     health-check:
@@ -75,7 +97,7 @@ proxy-providers:
 
   "provide-id":
     type: http
-    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=4&vpn=trojan&port=443&domain=172.67.5.14&host=quiz.vidio.com&update=1"
+    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=ID&format=raw&limit=4&vpn=trojan&port=443&domain=172.67.5.14&host=bug.com&update=1"
     interval: 3600
     path: ./provide/id.yaml
     health-check:
@@ -85,7 +107,7 @@ proxy-providers:
 
   "provide-jp":
     type: http
-    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=JP&format=raw&limit=4&vpn=trojan&port=443&domain=172.67.5.14&host=quiz.vidio.com&update=1"
+    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=JP&format=raw&limit=4&vpn=trojan&port=443&domain=172.67.5.14&host=bug.com&update=1"
     interval: 3600
     path: ./provide/jp.yaml
     health-check:
@@ -100,10 +122,10 @@ proxy-providers:
   # vpn=trojan       : Hanya mengambil akun trojan
   # port=443         : Menggunakan port 443
   # domain=172.67.5.14 : IP yang digunakan
-  # host=bug.com     : SNI/Host yang akan digunakan untuk semua akun
+  # host=bug.com     : SNI/Host ganti dengan bug kalian
   "provide-china":
     type: http
-    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=CN&format=raw&limit=20&vpn=trojan&port=443&domain=172.67.5.14&host=quiz.vidio.com&update=1"
+    url: "https://nautica.foolvpn.me/api/v1/sub/?cc=CN&format=raw&limit=20&vpn=trojan&port=443&domain=172.67.5.14&host=bug.com&update=1"
     interval: 3600
     path: ./provide/china.yml
     health-check:

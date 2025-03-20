@@ -1,37 +1,67 @@
-# Konfigurasi Clash BFM
+<div align="center">
+  <h1>⚡ Konfigurasi Clash BFM by Latifan ⚡</h1>
+  <p>Konfigurasi Clash BFM untuk Android dengan berbagai fitur dan rule yang telah dioptimalkan</p>
+</div>
 
-Konfigurasi Clash BFM untuk Android dengan berbagai fitur dan rule yang telah dioptimalkan.
-        #### PENTING ####
-## Perhatikan untuk install pertama kali
- - pastikan untuk menginstall BFM terlebih dahulu download di https://github.com/taamarin/box_for_magisk
-   ## untuk BFR CFM silahkan di coba sendiri 
--  Edit akun utama kalian di proxy_provider/
-   +ID.yaml dan SG.yaml di isi dengan akun kalian
--  akun di bagian provide-us, provide-sg, provide-id, provide-jp akan otomatis terdownload
--  untuk akun china akan otomatis terdownload di provide/china.yml
--  untuk rule akan otomatis terdownload di rule_provider/
+## 📋 Daftar Isi
+- [Instalasi](#-instalasi)
+- [Fitur](#-fitur)
+- [Struktur Folder](#-struktur-folder)
+- [Proxy Groups](#-proxy-groups)
+- [Cara Penggunaan](#-cara-penggunaan)
+- [Pembaruan Provider](#-pembaruan-provider)
+- [FAQ](#-faq)
+- [Kredit](#-kredit)
 
+## 🚀 Instalasi
 
-## Fitur
-- Dashboard untuk melihat status server sudah terinstall menggunakan versi terupdate dari https://github.com/MetaCubeX/metacubexd
-- Multi-provider server dari berbagai negara (US, SG, ID, JP)
-- Rule provider untuk berbagai kategori:
-  - Direct
-  - Umum
-  - Reject
-  - Streaming
-  - Games
-  - Sosmed
-  - Ewallet
-  - China
-  - AdBlock
-  - Malware
-- DNS yang dioptimalkan dengan fallback
-- Sniffer untuk deteksi domain
-- TUN mode untuk kompatibilitas aplikasi
-- Sistem load balance dan fallback
+### Persiapan Awal
+1. Install BFM terlebih dahulu dari [Box For Magisk](https://github.com/taamarin/box_for_magisk)
+2. Download repository ini di [CLASH-CONFIG-by-Latifan](https://github.com/latifangren/CLASH-CONFIG-by-Latifan)
 
-## Struktur Folder
+### Konfigurasi Akun
+1. Edit akun utama di folder `proxy_provider/`:
+   - `ID.yaml` - Untuk akun Indonesia
+   - `SG.yaml` - Untuk akun Singapore
+
+### Konfigurasi Bug untuk akun vpn yang otomatis terdownload
+- Ubah `bug.com` dengan bug Anda di `config.yaml`
+- Cari bagian yang mengandung `bug.com` dan ganti sesuai kebutuhan
+
+## ✨ Fitur
+
+### Dashboard
+- Menggunakan versi terbaru dari [MetaCubeX Dashboard](https://github.com/MetaCubeX/metacubexd)
+- Interface yang modern dan mudah digunakan
+
+### Provider Server
+- Multi-region support:
+  - 🇺🇸 United States
+  - 🇸🇬 Singapore
+  - 🇮🇩 Indonesia
+  - 🇯🇵 Japan
+  - 🇨🇳 China
+
+### Rule Provider
+| Kategori | Deskripsi |
+|----------|-----------|
+| Direct | Koneksi langsung tanpa proxy |
+| Umum | Rule untuk penggunaan umum |
+| Reject | Pemblokiran iklan dan tracker |
+| Streaming | Optimasi untuk layanan streaming |
+| Games | Rule khusus untuk gaming |
+| Sosmed | Optimasi media sosial |
+| Ewallet | Khusus aplikasi e-wallet |
+| AdBlock | Pemblokiran iklan komprehensif |
+| Malware | Proteksi dari malware |
+
+### Fitur Teknis
+- ✅ DNS Teroptimasi dengan fallback
+- ✅ Sniffer untuk deteksi domain
+- ✅ TUN mode support
+- ✅ Load balance & fallback system
+
+## 📁 Struktur Folder
 ├── config.yaml
 ├── provide/
 │ ├── us.yaml
@@ -55,22 +85,23 @@ Konfigurasi Clash BFM untuk Android dengan berbagai fitur dan rule yang telah di
 ├── adblock.yaml
 └── malware.yaml
 
-## Proxy Groups
+## 🔄 Proxy Groups
 
-- **Ewallet**: Khusus untuk aplikasi e-wallet & online shop
-- **Games**: Optimasi untuk gaming dengan opsi DIRECT
-- **Streaming**: Khusus layanan streaming
-- **Sosmed**: Khusus media sosial
-- **Manual**: Pilihan server manual
-- **Auto**: Fallback otomatis
-- **Best Ping**: Pemilihan berdasarkan ping terbaik
-- **ID-LB**: Load balance server Indonesia
-- **SG-LB**: Load balance server Singapore
-- **LB ID-SG**: Load balance kombinasi ID-SG
-- **GLOBAL**: Pilihan untuk traffic umum
-- **CHINA**: Auto-test untuk server China
+| Group | Fungsi |
+|-------|--------|
+| 💳 Ewallet | Khusus e-wallet & online shop |
+| 🎮 Games | Optimasi gaming dengan opsi DIRECT |
+| 🎬 Streaming | Khusus layanan streaming |
+| 📱 Sosmed | Khusus media sosial |
+| 🔧 Manual | Pilihan server manual |
+| 🔄 Auto | Fallback otomatis |
+| ⚡ Best Ping | Pemilihan berdasarkan ping terbaik |
+| 🇮🇩 ID-LB | Load balance server Indonesia |
+| 🇸🇬 SG-LB | Load balance server Singapore |
+| 🌐 GLOBAL | Traffic umum |
+| 🇨🇳 CHINA | Auto-test server China |
 
-## Cara Penggunaan
+## 📝 Cara Penggunaan
 
 1. Pastikan sudah menginstall Clash Meta for Android
 2. Copy semua file ke folder Clash
@@ -82,7 +113,12 @@ Konfigurasi Clash BFM untuk Android dengan berbagai fitur dan rule yang telah di
 5. Tunggu semua provider terunduh
 6. Pilih proxy group sesuai kebutuhan
 
-## Pembaruan Provider
+## ⚙️ Pembaruan Provider
+- Provider server: Setiap 1 jam
+- Rule provider: Setiap 24 jam
+- Health check: Setiap 30-60 menit
+
+## ❓ FAQ
 
 - Provider server diperbarui setiap 1 jam
 - Rule provider diperbarui setiap 24 jam
@@ -90,14 +126,24 @@ Konfigurasi Clash BFM untuk Android dengan berbagai fitur dan rule yang telah di
 
 ## Catatan
 
-- Pastikan folder yang diperlukan sudah dibuat
+- Pastikan folder yang diperlukan sudah dibuat atau sudah ada
 - Jika menggunakan TUN mode, aktifkan di pengaturan
 - Sesuaikan proxy group dengan kebutuhan
 - Backup konfigurasi sebelum melakukan perubahan
 
-## Kredit
-pembuat config ini LATIFAN https://github.com/latifangren/latifangren
-Konfigurasi ini menggunakan:
-- Rule dari blackmatrix7
-- Server dari berbagai provider
+### Pembuat Konfigurasi
+- [LATIFAN](https://github.com/latifangren/latifangren)
+
+### Sumber Rule & Resources
+- Rule dari [blackmatrix7](https://github.com/blackmatrix7)
 - DNS dari AdGuard, Cloudflare, dan Google
+
+---
+<div align="center">
+  <p>Made with ❤️ by Latifan</p>
+  <p>
+    <a href="https://github.com/latifangren/CLASH-CONFIG-by-Latifan/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/latifangren/CLASH-CONFIG-by-Latifan/issues">Request Feature</a>
+  </p>
+</div>
