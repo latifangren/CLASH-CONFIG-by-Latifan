@@ -418,6 +418,25 @@ tun:
     - 10
   
   include_package:
+    # Game Popular
+    - com.mobile.legends
+    - com.tencent.ig
+    - com.pubg.imobile
+    - com.garena.game.codm
+    - com.activision.callofduty.shooter
+    - com.dts.freefireth
+    - com.dts.freefiremax
+    - com.supercell.clashofclans
+    - com.supercell.brawlstars
+    - com.miHoYo.GenshinImpact
+    - com.riotgames.league.wildrift
+    - com.riotgames.legendsofruneterra
+    - com.garena.game.kgid
+    - com.garena.game.kgth
+    - com.epicgames.fortnite
+    - com.ea.gp.fifamobile
+    - com.gameloft.android.ANMP.GloftA9HM
+    # Aplikasi Umum
     - com.android.chrome
     - com.android.vending
     - com.google.android.gms
