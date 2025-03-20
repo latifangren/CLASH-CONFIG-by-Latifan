@@ -261,8 +261,6 @@ dns:
   nameserver:
     - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
-    - tls://94.140.14.14:853  # AdGuard DNS
     - tls://1.1.1.1:853
     - tls://8.8.8.8:853
   enable: true
@@ -398,23 +396,22 @@ sniffer:
   parse-pure-ip: true
 tcp-concurrent: true
 geodata-loader: memconservative
-keep-alive-interval: 10
+keep-alive-interval: 15
 global-client-fingerprint: chrome
-keep-alive-idle: 300
+keep-alive-idle: 120
 authentication:
 - Clash:ACm8NSSW
 
 # Konfigurasi TUN
 tun:
-  enable: false
+  enable: true
   stack: system
   dns-hijack:
     - any:53
   auto-route: true
   auto-detect-interface: true
   device: meta
-  mtu: 1500
-  ipv6: false
+  mtu: 9000
   
   include_android_user:
     - 0
@@ -427,3 +424,8 @@ tun:
     - com.google.android.gsf
     - com.android.providers.downloads
     - com.google.android.apps.maps
+    - com.whatsapp
+    - com.facebook.katana
+    - com.instagram.android
+    - com.twitter.android
+    - com.google.android.youtube
