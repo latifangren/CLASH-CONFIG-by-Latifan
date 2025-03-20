@@ -18,6 +18,7 @@
 ### Persiapan Awal
 1. Install BFM terlebih dahulu dari [Box For Magisk](https://github.com/taamarin/box_for_magisk)
 2. Download repository ini di [CLASH-CONFIG-by-Latifan](https://github.com/latifangren/CLASH-CONFIG-by-Latifan)
+3. Download WEB UI BFM (opsional) di [WEB UI BFM](https://github.com/latifangren/webui_bfm_Extended)
 
 ### Konfigurasi Akun
 1. Edit akun utama di folder `proxy_provider/`:
@@ -130,7 +131,7 @@
 - Jika menggunakan TUN mode, aktifkan di pengaturan
 - Sesuaikan proxy group dengan kebutuhan
 - Backup konfigurasi sebelum melakukan perubahan
-
+## 🙏 Kredit
 ### Pembuat Konfigurasi
 - [LATIFAN](https://github.com/latifangren/latifangren)
 
