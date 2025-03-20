@@ -1,0 +1,14 @@
+proxies:
+  - name: SG1
+    server: host.com/bug.com
+    port: 443
+    type: trojan
+    password: isi password kalian
+    skip-cert-verify: true
+    sni: host.com
+    network: ws
+    ws-opts: 
+      path: isi sesuai path vpn kalian
+      headers: 
+        Host: host.com
+    udp: true
