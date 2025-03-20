@@ -17,7 +17,7 @@
 
 ### Persiapan Awal
 1. Install BFM terlebih dahulu dari [Box For Magisk](https://github.com/taamarin/box_for_magisk)
-2. Download repository ini di [CLASH-CONFIG-by-Latifan]([https://github.com/latifangren/CLASH-CONFIG-by-Latifan](https://github.com/latifangren/CLASH-CONFIG-by-Latifan/releases))
+2. Download repository ini di [CLASH-CONFIG-by-Latifan](https://github.com/latifangren/CLASH-CONFIG-by-Latifan/releases)
 3. Download WEB UI BFM (opsional) di [WEB UI BFM](https://github.com/latifangren/webui_bfm_Extended)
 
 ### Konfigurasi Akun
