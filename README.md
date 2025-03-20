@@ -5,10 +5,10 @@
 
 ## 📋 Daftar Isi
 - [Instalasi](#-instalasi)
+- [Cara Penggunaan](#-cara-penggunaan)
 - [Fitur](#-fitur)
 - [Struktur Folder](#-struktur-folder)
 - [Proxy Groups](#-proxy-groups)
-- [Cara Penggunaan](#-cara-penggunaan)
 - [Pembaruan Provider](#-pembaruan-provider)
 - [FAQ](#-faq)
 - [Kredit](#-kredit)
@@ -19,6 +19,16 @@
 1. Install BFM terlebih dahulu dari [Box For Magisk](https://github.com/taamarin/box_for_magisk)
 2. Download repository ini zip file di menu CODE pilih download zip
 3. Download WEB UI BFM (opsional) di [WEB UI BFM](https://github.com/latifangren/webui_bfm_Extended) INSTALL di MAGISK
+
+## 📝 Cara Penggunaan
+
+1. Pastikan sudah menginstall BFM , CFM dan BFR saya belum coba
+2. Copy semua file ke folder Clash
+3. pastikan folder sesuai ada di data/adb/box/clash/ untuk pengguna BFM
+4. setting config.yaml
+5. Tunggu semua provider terunduh
+6. Pilih proxy group sesuai kebutuhan
+
 ### Konfigurasi Akun
 1. Edit akun utama di folder `proxy_provider/`:
    - `ID.yaml` - Untuk akun Indonesia
@@ -101,17 +111,6 @@
 | 🌐 GLOBAL | Traffic umum |
 | 🇨🇳 CHINA | Auto-test server China |
 
-## 📝 Cara Penggunaan
-
-1. Pastikan sudah menginstall Clash Meta for Android
-2. Copy semua file ke folder Clash
-3. Buat folder yang diperlukan:
-   - provide/
-   - proxy_provider/
-   - rule_provider/
-4. Import config.yaml ke Clash
-5. Tunggu semua provider terunduh
-6. Pilih proxy group sesuai kebutuhan
 
 ## ⚙️ Pembaruan Provider
 - Provider server: Setiap 1 jam
