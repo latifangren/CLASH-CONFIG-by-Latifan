@@ -1,0 +1,34 @@
+proxies:
+  - name: "🇸🇬 CFWarp-SG-A"
+    type: wireguard
+    server: 188.114.98.1
+    port: 891
+    ip: 172.16.0.2
+    private-key: yCD626iX8/aedPkp5H/NPGA4OA78+KHZ3JuHMITFAm4=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: true
+    udp: true
+    mtu: 1420
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    allowed-ips:
+      - 0.0.0.0/0
+      - ::/0
+
+  - name: "🇸🇬 CFWarp-SG-B"
+    type: wireguard
+    server: 188.114.98.2
+    port: 891
+    ip: 172.16.0.2
+    private-key: qNvoop4jAqXU7UmT8BEl5vZXlaly8JYtY9PwaTgZ+Ew=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    remote-dns-resolve: true
+    udp: true
+    mtu: 1420
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    allowed-ips:
+      - 0.0.0.0/0
+      - ::/0
