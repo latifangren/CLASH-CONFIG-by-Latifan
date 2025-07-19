@@ -107,6 +107,21 @@
     - REJECT
     - DIRECT
     - Best Ping
+  - name: SG
+    type: url-test
+    disable-udp: false
+    use:
+    - provide-sg
+  - name: ID
+    type: url-test
+    disable-udp: false
+    use:
+    - provide-id
+  - name: US
+    type: url-test
+    disable-udp: false
+    use:
+    - provide-us
   - name: Ewallet
     type: select
     disable-udp: false
@@ -154,8 +169,8 @@
     type: fallback
     disable-udp: false 
     use:
-    - "provide-id"
     - "provide-sg"
+    - "provide-id"
     - "provide-us"
     - "provide-warp-id"
     - "provide-warp-sg"
@@ -185,6 +200,10 @@
     type: select
     proxies:
       - DIRECT
+      - WireGuard-Only
+      - SG
+      - ID
+      - US
       - Auto
       - Best Ping
       - Manual
