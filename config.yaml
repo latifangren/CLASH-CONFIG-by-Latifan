@@ -300,7 +300,6 @@
       - https://dns.adguard.com/dns-query
       - https://dns.google/dns-query
       - https://cloudflare-dns.com/dns-query
-    DoH-enable: true
     
   redir-port: 9797
   tproxy-port: 9898
