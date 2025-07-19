@@ -127,6 +127,9 @@
     disable-udp: false
     proxies:
     - DIRECT
+    - SG
+    - ID
+    - US
     - Best Ping
     - Auto
     - Manual
