@@ -51,7 +51,8 @@
   # Provider Cloud Configuration
   proxy-providers:
     "provide-id":
-      type: file
+      type: http
+      url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/refs/heads/main/provide/id.yaml"
       path: ./provide/id.yaml
       health-check:
         enable: true
@@ -60,8 +61,9 @@
         timeout: 5
 
     "provide-sg":
-      type: file
+      type: http
       interval: 7200
+      url: "https://raw.githubusercontent.com/latifangren/CLASH-CONFIG-by-Latifan/refs/heads/main/provide/sg.yaml"
       path: ./provide/sg.yaml
       health-check:
         enable: true
