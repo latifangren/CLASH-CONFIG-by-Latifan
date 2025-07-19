@@ -135,6 +135,9 @@
     disable-udp: false
     proxies:
     - Auto
+    - SG
+    - ID
+    - US
     - Best Ping
     - Manual
     - DIRECT
@@ -143,6 +146,9 @@
     disable-udp: false
     proxies:
     - DIRECT
+    - SG
+    - ID
+    - US
     - Auto
     - Best Ping
     - Manual
@@ -151,6 +157,9 @@
     disable-udp: false
     proxies:
     - DIRECT
+    - SG
+    - ID
+    - US
     - Auto
     - Best Ping
     - Manual
