@@ -29,10 +29,6 @@
 5. Tunggu semua provider terunduh
 6. Pilih proxy group sesuai kebutuhan
 
-### Konfigurasi Akun
-1. Edit akun utama di folder `proxy_provider/`:
-   - `ID.yaml` - Untuk akun Indonesia
-   - `SG.yaml` - Untuk akun Singapore
 
 ### Konfigurasi Bug untuk akun vpn yang otomatis terdownload
 - Ubah `bug.com` dengan bug Anda di `config.yaml`
