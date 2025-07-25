@@ -1,3 +1,39 @@
 payload:
-  # Hotstar
+  # Local Network
   - IP-CIDR,192.168.1.1/24
+  - IP-CIDR,100.64.0.0/10
+  - DOMAIN-SUFFIX,ts.net
+  - IP-CIDR,100.100.100.100/32
+  - IP-CIDR,192.168.42.0/24
+  - IP-CIDR,192.168.43.0/24
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
+  - DOMAIN-SUFFIX,local
+  - DOMAIN,casaos.local
+  # Tailscale
+  - IP-CIDR,100.64.0.0/10
+  - DOMAIN-SUFFIX,tailscale.com
+  # Process Name
+  - PROCESS-NAME,clash
+  - PROCESS-NAME,cloudflared
+  - PROCESS-NAME,clash-meta
+  - PROCESS-NAME,ClashX
+  - PROCESS-NAME,DownloadService
+  - PROCESS-NAME,Folx
+  - PROCESS-NAME,LocalSend
+  - PROCESS-NAME,LogiOptions
+  - PROCESS-NAME,LogiOptionsDaemon
+  - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,fdm
+  - PROCESS-NAME,parsecd
+  - PROCESS-NAME,privoxy
+  - PROCESS-NAME,ss-local
+  - PROCESS-NAME,tailscaled
+  - PROCESS-NAME,transmission-daemon
+  - PROCESS-NAME,transmission-qt
+  - PROCESS-NAME,trojan
+  - PROCESS-NAME,trojan-go
+  - PROCESS-NAME,uTorrent
+  - PROCESS-NAME,v2ray
+  - PROCESS-NAME,xray
