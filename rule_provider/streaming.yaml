@@ -1,41 +1,4 @@
 payload:
-  # TikTok
-  - DOMAIN-SUFFIX,byteoversea.com
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-KEYWORD,-tiktokcdn-com
-  - DOMAIN-KEYWORD,-tiktok.byteoversea.com
-  - DOMAIN-SUFFIX,byteoversea.net
-  - DOMAIN-KEYWORD,-tiktok.
-  - DOMAIN-KEYWORD,-tiktok-
-  - DOMAIN-KEYWORD,tiktok-
-  - DOMAIN-KEYWORD,tiktokcdn-
-  - DOMAIN-KEYWORD,tiktokcdn
-  - DOMAIN-KEYWORD,-tt.byteimg.com
-  - DOMAIN-KEYWORD,-tt-ipv6.byteimg.com
-  - DOMAIN-KEYWORD,-hs.pstatp.com
-  - DOMAIN-KEYWORD,-tos.pstatp.com
-  - DOMAIN-KEYWORD,-mus.pstatp.com
-  - DOMAIN-SUFFIX,flive.pstatp.com
-  - DOMAIN-SUFFIX,byteimg.com
-  - DOMAIN-SUFFIX,ibyteimg.com
-  - DOMAIN-SUFFIX,sgpstatp.com
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-KEYWORD,tlivecdn.com
-  - DOMAIN-KEYWORD,ttlivecdn.com
-  - DOMAIN-SUFFIX,tiktokd.org
-  - DOMAIN-SUFFIX,ttoversea.net
-  - DOMAIN-SUFFIX,ttoverseaus.net
-  - DOMAIN-SUFFIX,sgsnssdk.com
-  - DOMAIN-SUFFIX,isnssdk.com
-  - DOMAIN-SUFFIX,musemuse.cn
-  - DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
   # HBO GO HKG
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
@@ -144,7 +107,6 @@ payload:
   - DOMAIN-SUFFIX,vidio.com.edgekey.net
   - DOMAIN-SUFFIX,vidio.com.edgesuite.net
   - DOMAIN-KEYWORD,adcs-
-  - DOMAIN,imasdk.googleapis.com
   - DOMAIN,soup.wetvinfo.com 
   # WeTV
   - DOMAIN-SUFFIX,iflix-images.akamaized.net
