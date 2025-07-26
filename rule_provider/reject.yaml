@@ -2,3 +2,16 @@ payload:
   - DST-PORT,7895
   - DST-PORT,7892
   - IP-CIDR,198.18.0.1/16
+  - DOMAIN,appmetrica.yandex.ru
+  - DOMAIN,ads.tiktok.com
+  - DOMAIN,business-api.tiktok.com
+  - DOMAIN,ads-sg.tiktok.com
+  - DOMAIN,ads-api.tiktok.com
+  - DOMAIN,api.bugsnag.com
+  - DOMAIN,app.bugsnag.com
+  - DOMAIN,browser.sentry-cdn.com
+  - DOMAIN,app.getsentry.com
+  - DOMAIN,click.googleanalytics.com
+  - DOMAIN,analytics.google.com
+  - DOMAIN,afs.googlesyndication.com
+  - DOMAIN,d3ward.github.io
