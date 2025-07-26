@@ -14,3 +14,7 @@ payload:
   - DOMAIN,click.googleanalytics.com
   - DOMAIN,analytics.google.com
   - DOMAIN,afs.googlesyndication.com
+  - DOMAIN,pagead2.googlesyndication.com
+  - DOMAIN,adc3-launch.adcolony.com
+  - DOMAIN,stats.g.doubleclick.net
+  - DOMAIN,ads30.adcolony.com
