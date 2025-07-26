@@ -1,20 +1,48 @@
 payload:
-  - DST-PORT,7895
+  # DST-PORT
   - DST-PORT,7892
+  - DST-PORT,7895
+  - DST-PORT,8080
+  - DST-PORT,8888
+  # IP-CIDR
   - IP-CIDR,198.18.0.1/16
-  - DOMAIN,appmetrica.yandex.ru
-  - DOMAIN,ads.tiktok.com
-  - DOMAIN,business-api.tiktok.com
+  - IP-CIDR,198.51.100.0/24
+  - IP-CIDR,203.0.113.0/24
+  # DOMAIN
+  - DOMAIN,ad.doubleclick.net
+  - DOMAIN,adc3-launch.adcolony.com
+  - DOMAIN,adnxs.com
+  - DOMAIN,adservice.google.com
+  - DOMAIN,ads-tiktok.com
   - DOMAIN,ads-sg.tiktok.com
+  - DOMAIN,ads.yahoo.com
+  - DOMAIN,ads30.adcolony.com
   - DOMAIN,ads-api.tiktok.com
+  - DOMAIN,analytics.google.com
   - DOMAIN,api.bugsnag.com
   - DOMAIN,app.bugsnag.com
-  - DOMAIN,browser.sentry-cdn.com
   - DOMAIN,app.getsentry.com
+  - DOMAIN,appmetrica.yandex.ru
+  - DOMAIN,browser.sentry-cdn.com
+  - DOMAIN,business-api.tiktok.com
   - DOMAIN,click.googleanalytics.com
-  - DOMAIN,analytics.google.com
-  - DOMAIN,afs.googlesyndication.com
+  - DOMAIN,connect.facebook.net
+  - DOMAIN,googleads.g.doubleclick.net
+  - DOMAIN,googletagmanager.com
+  - DOMAIN,googletagservices.com
+  - DOMAIN,graph.facebook.com
   - DOMAIN,pagead2.googlesyndication.com
-  - DOMAIN,adc3-launch.adcolony.com
+  - DOMAIN,partner.googleadservices.com
+  - DOMAIN,securepubads.g.doubleclick.net
+  - DOMAIN,ssl.google-analytics.com
   - DOMAIN,stats.g.doubleclick.net
-  - DOMAIN,ads30.adcolony.com
+  # DOMAIN-KEYWORD
+  - DOMAIN-KEYWORD,ads
+  - DOMAIN-KEYWORD,analytics
+  - DOMAIN-KEYWORD,track
+  # DOMAIN-SUFFIX
+  - DOMAIN-SUFFIX,adcolony.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,scorecardresearch.com
